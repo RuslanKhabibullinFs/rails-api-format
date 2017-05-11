@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
 
   s.files = Dir["lib/**/*", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 4.2.3"
-  s.add_dependency "active_model_serializers", "~> 0.10.0.rc2"
-  s.add_dependency "devise", "~> 3.5.1"
-  s.add_dependency "responders", "~> 2.1.0"
+  s.add_dependency "rails", ">= 4.2.3", "< 5.1"
+  s.add_dependency "active_model_serializers", "~> 0.10.0"
+  s.add_dependency "devise", "~> 3.5.1", "< 4.4"
+  s.add_dependency "responders", "~> 2.1.0", "< 2.6"
   s.add_development_dependency "bundler-audit"
   s.add_development_dependency "rubocop"
 end
